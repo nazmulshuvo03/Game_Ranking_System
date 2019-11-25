@@ -1,0 +1,185 @@
+.title {
+	margin: 0 0 1rem 0 !important;
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+
+/* -------------- Tabs ---------------- */
+.react-tabs__tab {
+	font-size: 1.25rem;
+	padding: 1rem 1rem !important;
+	width: 33% !important;
+	color: #607d8b;
+	float: center;
+}
+
+.react-tabs__tab--selected {
+	color: #00838f !important;
+	font-size: 1.5rem;
+	border-top: 0.3rem solid #e0e0e0 !important;
+	border-left: 0.3rem solid #e0e0e0 !important;
+	border-right: 0.3rem solid #e0e0e0 !important;
+	z-index: 3;
+}
+
+.tabText {
+	margin-left: 2rem !important;
+}
+
+.react-tabs__tab-list {
+	padding: 0 3rem !important;
+}
+
+.react-tabs__tab-panel--selected {
+}
+
+.react-tabs__tab-panel {
+	padding: 2rem !important;
+}
+
+/*----------- Player List and Match List ----------*/
+.collection-header {
+	margin: 0 1rem !important;
+}
+.card-panel {
+	margin: 0.75em 0.75em !important;
+}
+.list {
+	border: 0.4rem solid #e0e0e0;
+}
+.singlePlayerItem {
+	color: #607d8b;
+	border: 0.2rem solid #e0e0e0;
+	border-radius: 1rem;
+	padding: 1rem !important;
+	font-size: 1rem;
+}
+.singleMatchItem {
+	color: #607d8b;
+	border: 0.2rem solid #e0e0e0;
+	border-radius: 1rem;
+	padding: 1rem !important;
+	font-size: 1.5rem;
+}
+.addPlayer {
+	border-radius: 1rem;
+}
+
+/* ----------- Modal -------------------- */
+.modal {
+	position: fixed;
+	top: 10%;
+	left: -10%;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content;
+	height: fit-content;
+	z-index: 5;
+	border-radius: 1rem;
+}
+.modal-content {
+	padding: 2rem !important;
+	border-radius: 1rem;
+}
+
+.modalTitle {
+	margin-top: 0.75rem;
+	margin-left: 0.75rem;
+	font-size: 1.5em;
+}
+
+.closeButton {
+	font-size: 1.25rem;
+	padding: 0rem !important;
+	margin-top: 0.75rem !important;
+	margin-right: 0.75rem !important;
+	margin-left: 0.75rem !important;
+}
+
+.modalInput {
+	font-size: 1.5rem;
+	padding: 0 !important;
+	margin-bottom: 0.5rem !important;
+}
+
+/*---------- New Match --------------------*/
+.newMatchCard {
+	margin-top: 7rem;
+	margin-right: 4rem;
+	padding: 1rem 2rem;
+	border: 0.4rem solid #e0e0e0;
+	z-index: 3;
+	background: transparent;
+	border-radius: 1.5rem;
+}
+
+.dropdown {
+	display: initial;
+}
+
+/* --------- Player Details----------- */
+.playerFullName {
+	padding: 2rem;
+}
+.totalRate {
+	font-size: 1.5rem;
+	padding: 1rem;
+	font-weight: 100;
+}
+
+/* ---------Win Details ------------ */
+.records {
+	margin-top: 3rem;
+	border: 0.4rem solid #e0e0e0;
+}
+.recordHeader {
+	margin-top: 1rem;
+	margin-bottom: 0rem !important;
+}
+
+.winCardPannel {
+	padding: 1rem !important;
+	border: 0.4rem solid #e0e0e0;
+}
+
+.against {
+	font-size: 1.5rem;
+	font-weight: 100;
+	margin-top: 0.75rem !important;
+	padding: 0 1rem;
+}
+/* --------Match Details ------- */
+.matchDetails {
+	padding-top: 4rem !important;
+	padding-bottom: 4rem !important;
+}
+
+.matchTitle {
+	margin: 4rem;
+	color: red;
+}
+
+.playerName {
+	padding: 1rem;
+	margin: 1rem;
+	color: #607d8b;
+	border: 0.4rem solid #e0e0e0;
+}
+
+.announce {
+	padding: 2rem;
+	font-size: 2rem;
+}
+.winnerName {
+	font-size: 2.5rem;
+}
+
+.date {
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
